@@ -43,6 +43,10 @@ fn main() {
 				max_order = math.max(max_order, order)
 			}
 		}
-		println('${input}: ${terms}項${max_order}次のゴママヨです')
+		if terms == 0 {
+			println('ゴママヨではありません')
+		} else {
+			println('${input}: ${terms}項${max_order}次のゴママヨです')
+		}
 	}
 }
