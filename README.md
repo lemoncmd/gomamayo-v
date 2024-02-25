@@ -1,5 +1,6 @@
 # gomamayo-v
 V言語でゴママヨ検知するソフトです。
+お手製の最低限MeCabラッパーとIPADICを用いています。
 
 # how-to-build
 ```sh
